@@ -14,7 +14,7 @@
                     <div class="container">
                         <div class="slider-sub-text">The Best Cleaning Service Ever!</div>
                         <h1 class="slider-big-text">RG`s Cleaning</h1>
-                        <div class="slider-paragraph">RG`s Cleaning Services is family owned and operated Home and Office Cleaning service out of Marina Del Rey and serving surrounding cities. <br> We are a specialized residential and commercial cleaning service company homeowners throughout the Los Angeles Area. <br> For more information or to schedule a free estimate, give us a call today at <a href="tel:13234288922">+1 323 428 8922</a> or send us an email. <a href="mailto:inforgcleaning@gmail.com">inforgcleaning@gmail.com</a></div>
+                        <div class="slider-paragraph">RG`s Cleaning Services is family owned and operated Home and Office Cleaning service out of Marina Del Rey and serving surrounding cities. <br><br> We are a specialized residential and commercial cleaning service company homeowners throughout the Los Angeles Area. <br><br> For more information or to schedule a free estimate, give us a call today at <a href="tel:13234288922">+1 323 428 8922</a> or send us an email. <a href="mailto:inforgcleaning@gmail.com">inforgcleaning@gmail.com</a></div>
                         <div class="slider-btn-area">
                             <a href="quote.php" class="item-btn-fill">Get A Free Estimate
                                 <i class="fas fa-angle-right"></i>
@@ -30,7 +30,7 @@
                     <div class="container">
                         <div class="slider-sub-text">The Best Cleaning Service Ever!</div>
                         <h1 class="slider-big-text">RG`s Cleaning</h1>
-                        <div class="slider-paragraph">RG`s Cleaning Services is family owned and operated Home and Office Cleaning service out of Marina Del Rey and serving surrounding cities. <br> We are a specialized residential and commercial cleaning service company homeowners throughout the Los Angeles Area. <br> For more information or to schedule a free estimate, give us a call today at <a href="tel:13234288922">+1 323 428 8922</a> or send us an email. <a href="mailto:inforgcleaning@gmail.com">inforgcleaning@gmail.com</a></div>
+                        <div class="slider-paragraph">RG`s Cleaning Services is family owned and operated Home and Office Cleaning service out of Marina Del Rey and serving surrounding cities. <br><br> We are a specialized residential and commercial cleaning service company homeowners throughout the Los Angeles Area. <br><br> For more information or to schedule a free estimate, give us a call today at <a href="tel:13234288922">+1 323 428 8922</a> or send us an email. <a href="mailto:inforgcleaning@gmail.com">inforgcleaning@gmail.com</a></div>
                         <div class="slider-btn-area">
                             <a href="quote.php" class="item-btn-fill">Get A Free Estimate
                                 <i class="fas fa-angle-right"></i>
@@ -46,7 +46,7 @@
                     <div class="container">
                         <div class="slider-sub-text">The Best Cleaning Service Ever!</div>
                         <h1 class="slider-big-text">RG`s Cleaning</h1>
-                        <div class="slider-paragraph">RG`s Cleaning Services is family owned and operated Home and Office Cleaning service out of Marina Del Rey and serving surrounding cities. <br> We are a specialized residential and commercial cleaning service company homeowners throughout the Los Angeles Area. <br> For more information or to schedule a free estimate, give us a call today at <a href="tel:13234288922">+1 323 428 8922</a> or send us an email. <a href="mailto:inforgcleaning@gmail.com">inforgcleaning@gmail.com</a></div>
+                        <div class="slider-paragraph">RG`s Cleaning Services is family owned and operated Home and Office Cleaning service out of Marina Del Rey and serving surrounding cities. <br><br> We are a specialized residential and commercial cleaning service company homeowners throughout the Los Angeles Area. <br><br> For more information or to schedule a free estimate, give us a call today at <a href="tel:13234288922">+1 323 428 8922</a> or send us an email. <a href="mailto:inforgcleaning@gmail.com">inforgcleaning@gmail.com</a></div>
                         <div class="slider-btn-area">
                             <a href="quote.php" class="item-btn-fill">Get A Free Estimate
                                 <i class="fas fa-angle-right"></i>
@@ -231,15 +231,15 @@
                         <ul>
                             <li>
                                 <h3>Customer Focused Reviews</h3>
-                                <p>RG's Cleaning .</p>
+                                <!-- <p>RG's Cleaning .</p> -->
                             </li>
                             <li>
                                 <h3>We Are Committed</h3>
-                                <p>RG's Cleaning is focused .</p>
+                                <!-- <p>RG's Cleaning is focused .</p> -->
                             </li>
                             <li>
                                 <h3>Regular &amp; Monthly Cleaning</h3>
-                                <p>RG's Cleaning.</p>
+                                <!-- <p>RG's Cleaning.</p> -->
                             </li>
                         </ul>
                     </div>

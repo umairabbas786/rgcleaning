@@ -56,7 +56,7 @@
                                         <a href="index.php">Home</a>
                                     </li>
                                     <li>
-                                        <a href="#">About</a>
+                                        <a href="about.php">About</a>
                                     </li>
                                     <li>
                                         <a href="#">Services</a>

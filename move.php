@@ -73,15 +73,15 @@
                         <p>These are a deep clean and price includes:</p>
                         <p>
                             -Cleaning common areas such as kitchen and living areas <br>
-                            -cleaning inside the refrigerator and freezer <br>
-                            -cleaning inside the oven <br>
-                            -cleaning inside of windows <br>
-                            -cleaning inside of kitchen cabinets <br>
-                            -removable scuff marks from walls <br>
-                            -removable scuff marks from baseboard <br>
-                            -inside bedroom closets <br>
-                            -ceiling fans (customer must provide step ladder) <br>
-                            -includes cleaning supplies <br>
+                            -Cleaning inside the refrigerator and freezer <br>
+                            -Cleaning inside the oven <br>
+                            -Cleaning inside of windows <br>
+                            -Cleaning inside of kitchen cabinets <br>
+                            -Removable scuff marks from walls <br>
+                            -Removable scuff marks from baseboard <br>
+                            -Inside bedroom closets <br>
+                            -Ceiling fans (customer must provide step ladder) <br>
+                            -Includes cleaning supplies <br>
                         </p>
                         <h4>FOR EMPTY HOMES ONLY and for additional extra’s please let us know.
                             Please note: We do not clean blinds.
@@ -90,7 +90,7 @@
                     <div class="col-md-6">
                         <img src="img/move.jpeg" width="100%" alt="Move in out">
                     </div>
-                    <div class="col-md-6">
+                    <!-- <div class="col-md-6">
                         <h2>Be sure to write your desired Extras:</h2>
                         <p>
                             -Cleaning inside cabinets and drawers <br>
@@ -112,7 +112,7 @@
 
                 <p>All our standard cleanings include dusting and washing of all reachable surfaces, wiping the outside
                     of kitchen appliances & cabinets, basic cleaning of the bathrooms, and vacuuming & mopping of all
-                    floors.</p>
+                    floors.</p> -->
                 <p>If you’re moving to a new location in one of our service areas, consider our move in/out service as
                     part of your relocation plans. This is perfect for making your new home clean, sanitized and
                     sparkling like new.</p>

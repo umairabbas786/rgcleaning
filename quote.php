@@ -2,7 +2,7 @@
 <?php 
 if(isset($_POST['book'])){
     $ms='0';
-    $to = "umairabbass786@gmail.com";
+    $to = "inforgcleaning@gmail.com";
     $fname = $_POST['f-name'];
     $lname = $_POST['l-name'];
     $phone = $_POST['phone'];
@@ -12,6 +12,7 @@ if(isset($_POST['book'])){
     $foot = $_POST['foot'];
     $pets = $_POST['pets'];
     $service = $_POST['service'];
+    $clean = $_POST['clean'];
     $status = $_POST['status'];
     $request = $_POST['request'];
     $street = $_POST['street'];
@@ -22,7 +23,7 @@ if(isset($_POST['book'])){
     $msg = "First Name = $fname\r\n" . "Last Name = $lname\r\n" . "Email = $email\r\n". "Phone Number = $phone\r\n"
     . "Number of Bedrooms = $bed\r\n" . "Number of Bathrooms = $bath\r\n" . "Square Footage = $foot\r\n"
     . "Do They Have Pets = $pets\r\n" . "How Often want service = $service\r\n"
-    . "How Will be present during service = $service\r\n" . "Any Specific Request = $request\r\n" . "Street = $street\r\n"
+    . "How Will be present during service = $service\r\n" . "Requested Service = $clean\r\n" . "Any Specific Request = $request\r\n" . "Street = $street\r\n"
     . "City = $city\r\n" . "State = $state\r\n" . "Zip  = $zip\r\n";
     $headers = "From: info@rgcleaning.site";
 
@@ -119,7 +120,7 @@ else{
                     <div class="col-xl-12 col-lg-12 col-12">
                         <div class="card p-5">
                             <h2 class="item-title text-center" style="font-weight: 700;">Get An Estimate</h2>
-                            <h4 style="font-weight: 600;">Book your cleaning Service in 60 seconds.</h4>
+                            <!-- <h4 style="font-weight: 600;">Book your cleaning Service in 60 seconds.</h4> -->
                             <hr>
                             <form class="contact-form-box" action="" method="POST">
                                 <div class="row gutters-10">
@@ -185,6 +186,16 @@ else{
                                         <hr>
                                         <h4 style="font-weight: 600;">Service Requested</h4>
                                     </div>
+                                    <div class="col-md-12 form-group">
+                                        <select class="select2" name="clean">
+                                            <option value="" selected disabled>Requested Service</option>
+                                            <option value="House Cleaning">Standard Cleaning</option>
+                                            <option value="Deep Cleaning">Deep Cleaning</option>
+                                            <option value="Daily Maid">Daily Maid</option>
+                                            <option value="Move in/ Move out Cleaning Service">Move in / Move out Cleaning Service</option>
+                                            <option value="Office Cleaning">Office Cleaning</option>
+                                        </select>
+                                    </div>
                                     <div class="col-md-12">
                                         <p>Any Specific request you are looking for in services? (optional) </p>
                                     </div>
@@ -209,7 +220,7 @@ else{
                                         <input type="text" placeholder="Zip Code" class="form-control" name="zip" required>
                                     </div>
                                     <div class="col-12 form-group">
-                                        <button type="submit" name="book" class="fw-btn-fill bg-accent text-primarytext">Book Now<i class="fas fa-angle-right"></i></button>
+                                        <button type="submit" name="book" class="fw-btn-fill bg-accent text-primarytext">Get An Estimate<i class="fas fa-angle-right"></i></button>
                                     </div>
                                 </div>
                                 <div class="form-response"></div>

@@ -297,11 +297,11 @@
                     <p>Windows cleaning (inside only) – $5 per window</p>
                     <p>Laundry (if you have washer/dryer in the house) – $15 per load</p>
                     <p>Windows + Blinds cleaning – $15 per window</p>
-                    <p>Same Day Service – $29 please call 818-208-1698 for availability</p>
+                    <!-- <p>Same Day Service – $29 please call 818-208-1698 for availability</p> -->
                     <p>Deep cleaning – price depends on the size, please refer to our online booking form. Adds extra time to focus on areas that require more attention.</p>
                     <p>Doesn’t include cleaning inside appliances, washing walls or inside cabinets. Feel free to select more than 1 deep cleaning if you feel that your space needs it and hasn’t been cleaned professionally in less than 3 months. If your place hasn’t been cleaned professionally in over 3 months, please add at least 2 deep cleanings. </p>
-                    <h3>Organizing:</h3>
-                    <p>We offer organizing services for $50 per hour per person. Please use online chat (bottom right corner) or call us 818-208-1698 if you’re unsure how many hours would be needed.</p>
+                    <!-- <h3>Organizing:</h3>
+                    <p>We offer organizing services for $50 per hour per person. Please use online chat (bottom right corner) or call us 818-208-1698 if you’re unsure how many hours would be needed.</p> -->
                 </div>
             </div>
         </div>
