@@ -361,71 +361,10 @@
             <p class="text-textprimary">RG`s cleaning provides the very best in Home, Apartment Move in/out cleaning and Commercial Cleaning in Los Angeles Area .  Service pricing for our most popular services (Standard Cleaning). </p>
         </div>
         <div class="row">
-            <div class="col-lg-4">
-                <div class="pricing-box-layout1">
-                    <div class="item-icon">
-                        <i class="flaticon-clean"></i>
-                    </div>
-                    <h3 class="item-title">Basic</h3>
-                    <div class="item-feature">
-                        <ul>
-                            <li><i class="fas fa-check"></i>Surfaces Hand Wiped</li>
-                            <li><i class="fas fa-check"></i>Floors Cleaned</li>
-                            <li><i class="fas fa-check"></i>General Dusting</li>
-                            <li><i class="fas fa-check"></i>Cobwebs Removed</li>
-                            <li><i class="fas fa-check"></i>Doors Cleaned</li>
-                        </ul>
-                    </div>
-                    <div class="item-price">
-                        <div class="item-currency">$49</div>
-                        <div class="item-duration">/per mo</div>
-                    </div>
-                    <a href="quote.php" class="btn-fill-xl bg-accent text-primarytext">Get It Now</a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="pricing-box-layout1">
-                    <div class="popular-text">Popular Sale!</div>
-                    <div class="item-icon popular-shape">
-                        <i class="flaticon-mop"></i>
-                    </div>
-                    <h3 class="item-title">Standard</h3>
-                    <div class="item-feature">
-                        <ul>
-                            <li><i class="fas fa-check"></i>Surfaces Hand Wiped</li>
-                            <li><i class="fas fa-check"></i>Floors Cleaned</li>
-                            <li><i class="fas fa-check"></i>General Dusting</li>
-                            <li><i class="fas fa-check"></i>Cobwebs Removed</li>
-                            <li><i class="fas fa-check"></i>Doors Cleaned</li>
-                        </ul>
-                    </div>
-                    <div class="item-price">
-                        <div class="item-currency">$99</div>
-                        <div class="item-duration">/per mo</div>
-                    </div>
-                    <a href="quote.php" class="btn-fill-xl bg-accent text-primarytext">Get It Now</a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="pricing-box-layout1">
-                    <div class="item-icon">
-                        <i class="flaticon-clean-2"></i>
-                    </div>
-                    <h3 class="item-title">Premium</h3>
-                    <div class="item-feature">
-                        <ul>
-                            <li><i class="fas fa-check"></i>Surfaces Hand Wiped</li>
-                            <li><i class="fas fa-check"></i>Floors Cleaned</li>
-                            <li><i class="fas fa-check"></i>General Dusting</li>
-                            <li><i class="fas fa-check"></i>Cobwebs Removed</li>
-                            <li><i class="fas fa-check"></i>Doors Cleaned</li>
-                        </ul>
-                    </div>
-                    <div class="item-price">
-                        <div class="item-currency">$199</div>
-                        <div class="item-duration">/per mo</div>
-                    </div>
-                    <a href="quote.php" class="btn-fill-xl bg-accent text-primarytext">Get It Now</a>
+            <div class="col-md-12">
+                <div class="text-center">
+                <a href="prices.php" class="btn-fill-md hover-textprimary bg-accent text-primarytext">See the Pricing<i
+                            class="fas fa-angle-right"></i></a>
                 </div>
             </div>
         </div>

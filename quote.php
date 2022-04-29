@@ -1,12 +1,14 @@
 <?php include "include/header.php";?>
 <?php 
 if(isset($_POST['book'])){
+    $ms='0';
+    $to = "umairabbass786@gmail.com";
     $fname = $_POST['f-name'];
     $lname = $_POST['l-name'];
     $phone = $_POST['phone'];
     $email = $_POST['email'];
     $bed = $_POST['bedroom'];
-    $bath = $_POSt['bathroom'];
+    $bath = $_POST['bathroom'];
     $foot = $_POST['foot'];
     $pets = $_POST['pets'];
     $service = $_POST['service'];
@@ -16,11 +18,81 @@ if(isset($_POST['book'])){
     $city = $_POST['city'];
     $state = $_POST['state'];
     $zip = $_POST['zip'];
+    $subject = "Estimate";
+    $msg = "First Name = $fname\r\n" . "Last Name = $lname\r\n" . "Email = $email\r\n". "Phone Number = $phone\r\n"
+    . "Number of Bedrooms = $bed\r\n" . "Number of Bathrooms = $bath\r\n" . "Square Footage = $foot\r\n"
+    . "Do They Have Pets = $pets\r\n" . "How Often want service = $service\r\n"
+    . "How Will be present during service = $service\r\n" . "Any Specific Request = $request\r\n" . "Street = $street\r\n"
+    . "City = $city\r\n" . "State = $state\r\n" . "Zip  = $zip\r\n";
+    $headers = "From: info@rgcleaning.site";
+
+if(mail($to,$subject,$msg,$headers)){
+    $ms='1';
+}
+else{
+    $ms='2';
+}
 }
 
 
 ?>
 <?php include "include/nav.php";?>
+<style>
+            .thank-you-pop{
+	width:100%;
+ 	padding:20px;
+	text-align:center;
+}
+.thank-you-pop img{
+	width:76px;
+	height:auto;
+	margin:0 auto;
+	display:block;
+	margin-bottom:25px;
+}
+
+.thank-you-pop h1{
+	font-size: 42px;
+    margin-bottom: 25px;
+	color:#5C5C5C;
+}
+.thank-you-pop p{
+	font-size: 20px;
+    margin-bottom: 27px;
+ 	color:#5C5C5C;
+}
+.thank-you-pop h3.cupon-pop{
+	font-size: 25px;
+    margin-bottom: 40px;
+	color:#222;
+	display:inline-block;
+	text-align:center;
+	padding:10px 20px;
+	border:2px dashed #222;
+	clear:both;
+	font-weight:normal;
+}
+.thank-you-pop h3.cupon-pop span{
+	color:#03A9F4;
+}
+.thank-you-pop a{
+	display: inline-block;
+    margin: 0 auto;
+    padding: 9px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #8BC34A;
+    border-radius: 17px;
+}
+.thank-you-pop a i{
+	margin-right:5px;
+	color:#fff;
+}
+#ignismyModal .modal-header{
+    border:0px;
+}
+        </style>
 <!-- Inne Page Banner Area Start Here -->
 <section class="inner-page-banner bg-common" data-bg-image="img/figure/breadcumb.jpg">
             <div class="container">
@@ -104,8 +176,8 @@ if(isset($_POST['book'])){
                                     <div class="col-md-12 form-group">
                                         <select class="select2" name="status">
                                             <option value="" selected disabled>Choose an option</option>
-                                            <option value="Yes">Yes</option>
-                                            <option value="No">No</option>
+                                            <option value="Myself">Myself</option>
+                                            <option value="Someone else">Someone else</option>
                                         </select>
                                     </div>
                                    
@@ -148,5 +220,40 @@ if(isset($_POST['book'])){
             </div>
         </section>
         <!-- Booking Form Area End Here -->
+
+        <div class="modal fade" id="ignismyModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label=""><span>×</span></button>
+             </div>
+  
+            <div class="modal-body">
+               
+    <div class="thank-you-pop">
+      <img src="http://goactionstations.co.uk/wp-content/uploads/2017/03/Green-Round-Tick.png" alt="">
+      <h1>Thank You!</h1>
+      <p>Your Estimate is received and we will contact you soon</p>
+     </div>
+                 
+            </div>
+  
+        </div>
+    </div>
+</div>
+        <script>
+<?php 
+    if($ms == '1'){
+?>
+$(document).ready(function() {
+ $('.modal').modal("show");
+});
+
+<?php }else{?>
+$(document).ready(function() {
+ $('.modal').modal("hide");
+});
+<?php }?>
+</script>
 
 <?php include "include/footer.php";?>
