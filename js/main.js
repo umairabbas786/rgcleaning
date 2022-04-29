@@ -13,7 +13,7 @@
                 $target.html("<div class='alert alert-danger'><p>Please select all required field.</p></div>");
             } else {
                 $.ajax({
-                    url: "vendor/php/form-process.php",
+                    url: "sendmail.php",
                     type: "POST",
                     data: contactForm.serialize(),
                     beforeSend: function () {
