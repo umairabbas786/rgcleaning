@@ -26,29 +26,13 @@
                     <div class="col-lg-7">
                         <div class="about-box-layout1">
                             <div class="item-tag">Know About Us</div>
-                            <h2 class="item-title">Doing Business Since 1992 in Cleaning Service.</h2>
-                            <p>Chen an unknown printer took a galley of type and scrambled it to make a 
-                                type specimen book. It has survived not only five centuries, but also 
-                                the leap into electronic typesetting, remaining essentially unchanged.</p>
-                            <p>Chen an unknown printer took a galley of type and scrambled it to make a 
-                                type specimen book. It has survived not only five centuries, but also the 
-                                leap into electronic typesetting, remaining essentially unchanged.Chen an 
-                                unknown printer took a galley of type and scrambled it to make a type 
-                                specimen book. It has survived not only five centuries.</p>
-                            <div class="list-item">
-                                <ul>
-                                    <li>
-                                        <h3>Customer Focused Reviews</h3>
-                                        <p>Aorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                                            eiusmod tempor incididunt ut labore et dolore.</p>
-                                    </li>
-                                    <li>
-                                        <h3>We Are Committed</h3>
-                                        <p>Aorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                                            eiusmod tempor incididunt ut labore et dolore.</p>
-                                    </li>
-                                </ul>
-                            </div>
+                            <h2 class="item-title">OUR PROFESSIONAL HOUSECLEANERS.</h2>
+                            <p>“We clean houses”</p>
+                            <p>In 2017, entrepreneur Gabriela Alves brought RG`s Cleaning from Brazil, to give busy American homeowners a reliable, professional, affordable solution to messy, dirty houses.</p>
+                            <p>American workers are among the most productive in the entire world and have been for decades. Dual-income families are a fixture and so are work weeks and commutes that stretch beyond 40 hours into nights and weekends. Kids have homework, practice, rehearsals, sports meets, and a variety of other activities that require many parents to spend even more time out of the house.</p>
+                            <p>Working most commonly on a weekly or every other week schedule, RG`s Cleaning gives busy individuals and families clean, comfortable homes to return to and enjoy—homes cleaned according to their individual wishes and services backed by a 24-hour satisfaction guarantee.</p>
+                            <p>Taking care of homes and those in them is what we do best. We firmly believe a healthy home is a clean home!</p>
+                            <p>Since 2017, RG`s Cleaning has been providing cleaning solutions to fit the needs and busy lifestyles of our clients. Our friendly professionals strive to earn your loyalty every time we clean, which is why we make setting up house cleaning services as easy as can be. Whether you are looking to request services one time or create a routine cleaning plan, you'll never have to worry about signing a contract.</p>
                         </div>
                     </div>
                     <div class="col-lg-5">
@@ -57,6 +41,14 @@
                                 <img src="img/figure/about1.jpg" alt="thumb">
                             </div>
                         </div>
+                    </div>
+                    <div class="col-md-12">
+                        <h2 class="item-title">OUR PROVEN PROCESS.</h2>
+                        <b><p>Clean and Sanitize -In addition to our standard cleaning practices of dusting, vacuuming and scouring, our team will also sanitize light switches, doorknobs, telephones, bathroom surfaces, and other commonly touched areas.</p>
+                        <p>Professional Staff -Our residential housekeepers are extensively trained to clean every room in your home based on your specific needs, delivering the professional clean you expect.</p>
+                        <p>24-Hour Warranty -If you’re ever dissatisfied with any aspect of our recent services, just give us a call within 24 hours and we’ll work with you to resolve the problem.</p>
+                        <p>No Contracts -When you choose RG`s Cleaning, you can appreciate the fact that contracts are never an option. Our professional housecleaners are only as good as our last cleaning service.</p></b>
+                        <p>As local guidelines continue to evolve, please contact your local office to discuss the most up to date safety measures.</p>
                     </div>
                 </div>
             </div>
@@ -73,8 +65,6 @@
                             </div>
                             <div class="item-content">
                                 <h3 class="item-title">Trusted Cleaners</h3>
-                                <p>Ahen an unknown printer took a galley of type and 
-                                    scrambled it to make a type specimen five centuries.</p>
                             </div>
                         </div>
                     </div>
@@ -85,8 +75,6 @@
                             </div>
                             <div class="item-content">
                                 <h3 class="item-title">100% Satisfaction</h3>
-                                <p>Ahen an unknown printer took a galley of type and 
-                                    scrambled it to make a type specimen five centuries.</p>
                             </div>
                         </div>
                     </div>
@@ -97,8 +85,6 @@
                             </div>
                             <div class="item-content">
                                 <h3 class="item-title">Cost Effective</h3>
-                                <p>Ahen an unknown printer took a galley of type and 
-                                    scrambled it to make a type specimen five centuries.</p>
                             </div>
                         </div>
                     </div>
@@ -106,148 +92,6 @@
             </div>
         </section>
         <!-- Why Choose Area End Here -->
-        <!-- Team Area Start Here -->
-        <section class="section-padding-lg-5">
-            <div class="container">
-                <div class="heading-layout1">
-                    <h2>Our Working Experts</h2>
-                    <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium dol
-                        oremque laudantium, totam remeaque ipsa</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="team-box-layout1">
-                            <div class="item-img">
-                                <img src="img/team/team1.png" alt="team-thumb">
-                            </div>
-                            <div class="item-content">
-                                <h3 class="item-title"><a href="single-team.html">Richard Powel</a></h3>
-                                <div class="item-subtitle">Office Cleaner</div>
-                                <div class="item-social">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="team-box-layout1">
-                            <div class="item-img">
-                                <img src="img/team/team2.png" alt="team-thumb">
-                            </div>
-                            <div class="item-content">
-                                <h3 class="item-title"><a href="single-team.html">Merry Patel</a></h3>
-                                <div class="item-subtitle">Kitchen Cleaner</div>
-                                <div class="item-social">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-12 d-block d-md-none d-lg-block">
-                        <div class="team-box-layout1">
-                            <div class="item-img">
-                                <img src="img/team/team3.png" alt="team-thumb">
-                            </div>
-                            <div class="item-content">
-                                <h3 class="item-title"><a href="single-team.html">Johnson Jack</a></h3>
-                                <div class="item-subtitle">Floor Cleaner</div>
-                                <div class="item-social">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Team Area End Here -->
-        <!-- Banner Area Start Here -->
-        <section class="banner-wrap-layout1" data-bg-image="img/figure/banner-bg.jpg">
-            <div class="container">
-                <div class="row d-flex justify-content-xl-end">
-                    <div class="col-xl-6 col-12">
-                        <div class="banner-box-layout1">
-                            <h2 class="item-title">Together <span>We'll Explore</span> New Things</h2>
-                            <a href="#" class="btn-fill-md bg-accent btn-slide-hover text-primarytext">Read More<i class="fas fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Banner Area End Here -->
-        <!-- Process Area Start Here -->
-        <section class="section-padding-lg-2">
-            <div class="container">
-                <div class="heading-layout1">
-                    <h2>How It Works</h2>
-                    <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium dol
-                        oremque laudantium, totam remeaque ipsa</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 single-process">
-                        <div class="process-box-layout1">
-                            <div class="item-bg">
-                                <img src="img/figure/bubble5.png" alt="thumb">
-                                <div class="item-icon">
-                                    <i class="far fa-calendar-check"></i>
-                                </div>
-                            </div>
-                            <div class="item-content">
-                                <h3 class="item-title">Book Online</h3>
-                                <p>Ahen an unknown printer took a galley
-                                    of type and scrambled.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 single-process">
-                        <div class="process-box-layout1">
-                            <div class="item-bg">
-                                <img src="img/figure/bubble5.png" alt="thumb">
-                                <div class="item-icon">
-                                    <i class="far fa-envelope"></i>
-                                </div>
-                            </div>
-                            <div class="item-content">
-                                <h3 class="item-title">Get Confirmation</h3>
-                                <p>Ahen an unknown printer took a galley
-                                    of type and scrambled.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 single-process">
-                        <div class="process-box-layout1">
-                            <div class="item-bg">
-                                <img src="img/figure/bubble5.png" alt="thumb">
-                                <div class="item-icon">
-                                    <i class="far fa-smile"></i>
-                                </div>
-                            </div>
-                            <div class="item-content">
-                                <h3 class="item-title">Let’s Enjoy</h3>
-                                <p>Ahen an unknown printer took a galley
-                                    of type and scrambled.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Process Area End Here -->
         <!-- Call To Action Area Start Here -->
         <section class="action-wrap-layout1 bg-lightprimary">
             <div class="container">
