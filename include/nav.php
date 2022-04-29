@@ -73,7 +73,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="https://rocketmaidsla.com/prices/" target="_blank">Prices</a>
+                                        <a href="prices.php">Prices</a>
                                     </li>
                                     <li>
                                         <a href="contact.php">Contact</a>

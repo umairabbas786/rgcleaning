@@ -51,7 +51,7 @@
                                 <div class="footer-menu-box">
                                     <ul class="footer-menu-list">
                                         <li>
-                                            <a href="https://rocketmaidsla.com/prices/" target="_blank">Pricing</a>
+                                            <a href="prices.php">Pricing</a>
                                         </li>
                                     </ul>
                                 </div>
