@@ -2,7 +2,7 @@
 <?php 
 if(isset($_POST['contact'])){
     $msgg='0';
-    $to = "umairabbass786@gmail.com";
+    $to = "inforgcleaning@gmail.com";
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];

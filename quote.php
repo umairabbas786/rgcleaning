@@ -1,4 +1,25 @@
 <?php include "include/header.php";?>
+<?php 
+if(isset($_POST['book'])){
+    $fname = $_POST['f-name'];
+    $lname = $_POST['l-name'];
+    $phone = $_POST['phone'];
+    $email = $_POST['email'];
+    $bed = $_POST['bedroom'];
+    $bath = $_POSt['bathroom'];
+    $foot = $_POST['foot'];
+    $pets = $_POST['pets'];
+    $service = $_POST['service'];
+    $status = $_POST['status'];
+    $request = $_POST['request'];
+    $street = $_POST['street'];
+    $city = $_POST['city'];
+    $state = $_POST['state'];
+    $zip = $_POST['zip'];
+}
+
+
+?>
 <?php include "include/nav.php";?>
 <!-- Inne Page Banner Area Start Here -->
 <section class="inner-page-banner bg-common" data-bg-image="img/figure/breadcumb.jpg">
@@ -28,23 +49,23 @@
                             <h2 class="item-title text-center" style="font-weight: 700;">Get An Estimate</h2>
                             <h4 style="font-weight: 600;">Book your cleaning Service in 60 seconds.</h4>
                             <hr>
-                            <form class="contact-form-box">
+                            <form class="contact-form-box" action="" method="POST">
                                 <div class="row gutters-10">
                                     <div class="col-md-12 my-4">
                                         <h4 style="font-weight: 600;">Contact Information</h4>
                                         <p class="mt-n4">This information will be used to contact you about your service</p>
                                     </div>
                                     <div class="col-md-6 col-12 form-group">
-                                        <input type="text" placeholder="First Name" class="form-control" name="name" required>
+                                        <input type="text" placeholder="First Name" class="form-control" name="f-name" required>
                                     </div>
                                     <div class="col-md-6 col-12 form-group">
-                                        <input type="text" placeholder="Last Name" class="form-control" name="name" required>
+                                        <input type="text" placeholder="Last Name" class="form-control" name="l-name" required>
                                     </div>
                                     <div class="col-md-6 col-12 form-group">
-                                        <input type="text" placeholder="Phone Number" class="form-control" name="name" required>
+                                        <input type="text" placeholder="Phone Number" class="form-control" name="phone" required>
                                     </div>
                                     <div class="col-md-6 col-12 form-group">
-                                        <input type="text" placeholder="E-mail" class="form-control" name="name" required>
+                                        <input type="text" placeholder="E-mail" class="form-control" name="email" required>
                                     </div>
                                     <div class="col-md-12 my-4">
                                         <hr>
@@ -52,23 +73,23 @@
                                         <p class="mt-n4">Tell us about your home</p>
                                     </div>
                                     <div class="col-md-6 col-12 form-group">
-                                        <input type="text" placeholder="Number of Bedroom" class="form-control" name="name" required>
+                                        <input type="text" placeholder="Number of Bedroom" class="form-control" name="bedroom" required>
                                     </div>
                                     <div class="col-md-6 col-12 form-group">
-                                        <input type="text" placeholder="Number of Bathroom" class="form-control" name="name" required>
+                                        <input type="text" placeholder="Number of Bathroom" class="form-control" name="bathroom" required>
                                     </div>
                                     <div class="col-md-12 col-12 form-group">
-                                        <input type="text" placeholder="Approximate square footage of your property?" class="form-control" name="name" required>
+                                        <input type="text" placeholder="Approximate square footage of your property?" class="form-control" name="foot" required>
                                     </div>
                                     <div class="col-md-6 form-group">
-                                        <select class="select2">
+                                        <select class="select2" name="pets">
                                             <option value="" selected disabled>Do you have Pets?</option>
                                             <option value="Yes">Yes</option>
                                             <option value="No">No</option>
                                         </select>
                                     </div>
                                     <div class="col-md-6 form-group">
-                                        <select class="select2">
+                                        <select class="select2" name="service">
                                             <option value="" selected disabled>How often you want the service?</option>
                                             <option value="One time service">One time service</option>
                                             <option value="Daily">Daily</option>
@@ -81,7 +102,7 @@
                                         <p>Will you or someone be present during the cleaning (optional) </p>
                                     </div>
                                     <div class="col-md-12 form-group">
-                                        <select class="select2">
+                                        <select class="select2" name="status">
                                             <option value="" selected disabled>Choose an option</option>
                                             <option value="Yes">Yes</option>
                                             <option value="No">No</option>
@@ -104,19 +125,19 @@
                                         <h4 style="font-weight: 600;">Address</h4>
                                     </div>
                                     <div class="col-md-12 col-12 form-group">
-                                        <input type="text" placeholder="Street" class="form-control" name="name" required>
+                                        <input type="text" placeholder="Street" class="form-control" name="street" required>
                                     </div>
                                     <div class="col-md-6 col-12 form-group">
-                                        <input type="text" placeholder="City" class="form-control" name="name" required>
+                                        <input type="text" placeholder="City" class="form-control" name="city" required>
                                     </div>
                                     <div class="col-md-6 col-12 form-group">
-                                        <input type="text" placeholder="State" class="form-control" name="name" required>
+                                        <input type="text" placeholder="State" class="form-control" name="state" required>
                                     </div>
                                     <div class="col-md-6 col-12 form-group">
-                                        <input type="text" placeholder="Zip Code" class="form-control" name="name" required>
+                                        <input type="text" placeholder="Zip Code" class="form-control" name="zip" required>
                                     </div>
                                     <div class="col-12 form-group">
-                                        <button type="submit" class="fw-btn-fill bg-accent text-primarytext">Book Now<i class="fas fa-angle-right"></i></button>
+                                        <button type="submit" name="book" class="fw-btn-fill bg-accent text-primarytext">Book Now<i class="fas fa-angle-right"></i></button>
                                     </div>
                                 </div>
                                 <div class="form-response"></div>

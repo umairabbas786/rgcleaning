@@ -45,7 +45,7 @@
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo-area">
                                 <a href="index.php" class="temp-logo">
-                                    <img src="img/logo-dark.png" alt="logo" class="img-fluid">
+                                    <img src="img/logo.png" alt="logo" class="img-fluid">
                                 </a>
                             </div>
                         </div>
